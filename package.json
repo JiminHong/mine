@@ -1,7 +1,7 @@
 {
   "name": "redpanda",
   "description": "MEAN.io: A fullstack JavaScript framework powered by MongoDB, ExpressJS, AngularJS, NodeJS.",
-  "version": "5.0.0",
+  "version": "5.4.0",
   "private": false,
   "author": "Linnovate <mean@linnovate.net>",
   "contributors": "https://github.com/linnovate/mean/graphs/contributors",
