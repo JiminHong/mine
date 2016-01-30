@@ -1,0 +1,11 @@
+<!-- Basic entry point -->
+
+{% extends 'layouts/default.html' %}
+{% block content %}
+<!-- Angular ui injected here ::: ENTRY POINT FOR THE FRONT-END PART-->
+  <section data-ui-view ></section>
+  <script type="text/javascript">
+    window.user = {{user|json|safe}};
+    window.modules = null;
+  </script>
+{% endblock %}
